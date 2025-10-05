@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kategori Transportasi - Transportasi Nusantara</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="fade-page">
+  <header>
+    <div class="logo">🚍 Transportasi Nusantara</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="index.html#tentang" class="tentang-link">Tentang Kami</a></li>
+        <li><a href="category.html" class="active">Kategori</a></li>
+        <li><a href="contact.html">Kontak Saya</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="category-section fade-in-up">
+    <h2 class="fade-in-up">Kategori Transportasi di Indonesia</h2>
+    <p class="fade-in">Jelajahi berbagai jenis transportasi yang menjadi tulang punggung mobilitas di Indonesia — dari darat, laut, hingga udara.</p>
+    <div class="category-buttons fade-in-up">
+      <div class="category-card fade-in-up" onclick="document.getElementById('darat').scrollIntoView({behavior:'smooth'})">
+        <img src="images/darat.jpg" alt="Transportasi Darat">
+        <h3>Transportasi Darat</h3>
+      </div>
+      <div class="category-card fade-in-up" onclick="document.getElementById('laut').scrollIntoView({behavior:'smooth'})">
+        <img src="images/laut.jpg" alt="Transportasi Laut">
+        <h3>Transportasi Laut</h3>
+      </div>
+      <div class="category-card fade-in-up" onclick="document.getElementById('udara').scrollIntoView({behavior:'smooth'})">
+        <img src="images/udara.jpg" alt="Transportasi Udara">
+        <h3>Transportasi Udara</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="darat" class="fade-in-up">
+    <h2>Transportasi Darat</h2>
+    <p class="fade-in">Transportasi darat mencakup berbagai sarana seperti mobil, bus, motor, dan kereta api yang menghubungkan seluruh penjuru daratan Indonesia.</p>
+    <div class="transport-grid">
+      <div class="transport-item fade-in">
+        <a href="https://www.kai.id" target="_blank">
+          <img src="images/kereta.jpg" alt="Kereta Api Indonesia">
+          <div class="transport-info">Kereta Api Indonesia</div>
+        </a>
+      </div>
+      <div class="transport-item fade-in">
+        <a href="https://www.transjakarta.co.id/" target="_blank">
+          <img src="images/tJ.jpg" alt="Transjakarta">
+          <div class="transport-info">Transjakarta</div>
+        </a>
+      </div>
+      <div class="transport-item fade-in">
+        <a href="https://www.astra-honda.com/" target="_blank">
+          <img src="images/motor.jpg" alt="Motor">
+          <div class="transport-info">Motor</div>
+        </a>
+      </div>
+      <div class="transport-item fade-in">
+        <a href="https://www.toyota.astra.co.id/" target="_blank">
+          <img src="images/mobil.jpeg" alt="Mobil">
+          <div class="transport-info">Mobil</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="laut" class="fade-in-up">
+    <h2>Transportasi Laut</h2>
+    <p class="fade-in">Sebagai negara kepulauan, Indonesia sangat bergantung pada transportasi laut untuk mobilitas antar pulau dan perdagangan antar daerah.</p>
+    <div class="transport-grid">
+      <div class="transport-item fade-in">
+        <a href="https://pelni.co.id" target="_blank">
+          <img src="images/kapal.jpg" alt="Kapal Laut">
+          <div class="transport-info">Kapal Laut</div>
+        </a>
+      </div>
+      <div class="transport-item fade-in">
+        <a href="https://www.royalcaribbean.com/" target="_blank">
+          <img src="images/kapalpesiar.jpg" alt="Kapal Pesiar">
+          <div class="transport-info">Kapal Pesiar</div>
+        </a>
+      </div>
+      <div class="transport-item fade-in">
+        <a href="https://id.wikipedia.org/wiki/Kapal_selam" target="_blank">
+          <img src="images/kapalselam.jpg" alt="Kapal Selam">
+          <div class="transport-info">Kapal Selam</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="udara" class="fade-in-up">
+    <h2>Transportasi Udara</h2>
+    <p class="fade-in">Transportasi udara mempercepat perjalanan antar wilayah, menghubungkan berbagai kota besar di Indonesia bahkan hingga ke mancanegara.</p>
+    <div class="transport-grid">
+      <div class="transport-item fade-in">
+        <a href="https://www.garuda-indonesia.com" target="_blank">
+          <img src="images/pesawatgaruda.jpg" alt="Pesawat Garuda Indonesia">
+          <div class="transport-info">Pesawat Garuda Indonesia</div>
+        </a>
+      </div>
+      <div class="transport-item fade-in">
+        <a href="https://airbusworld.helicopters.airbus.com/" target="_blank">
+          <img src="images/helikopter.jpeg" alt="Helikopter">
+          <div class="transport-info">Helikopter</div>
+        </a>
+      </div>
+      <div class="transport-item fade-in">
+        <a href="https://www.gezenthi.com/tour/cappadocia-hot-air-balloon-tour" target="_blank">
+          <img src="images/balonudara.jpeg" alt="Balon Udara">
+          <div class="transport-info">Balon Udara</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Transportasi Nusantara | 2322105068 Raudhatul Ula Camalia | Tugas Mata Kuliah Sistem Multimedia 3T01</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
